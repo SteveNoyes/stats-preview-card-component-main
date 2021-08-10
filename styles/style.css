@@ -95,3 +95,58 @@ p {
   width: 90%;
   margin: auto;
 }
+
+.statsNums {
+  padding-bottom: 2em;
+}
+
+.statsNum {
+  font-size: 1.5em;
+  padding: .5em 0;
+}
+
+.statsTitle {
+  font-size: .8em;
+  color: var(--slightly-more-transparent-white);
+}
+
+@media only screen and (min-width: 1400px) {
+  .cardWrap {
+    max-width: 900px;
+    height: auto;
+  }
+
+  .statsCard {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .statsTint {
+    display: flex;
+    margin-left: 5em;
+  }
+
+  .statsNums {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0;
+  }
+
+  .statsInfo {
+    padding: 2em 2em .7em 2em;
+    text-align: left;
+  }
+
+  .statsHeading {
+    margin-left: 16.4px;
+  }
+
+  img {
+    border-radius: 0 10px 10px 0;
+  }
+
+  .statsTint:before {
+    border-radius: 0 10px 10px 0;
+    margin-bottom: 0;
+  }
+}
